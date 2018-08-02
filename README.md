@@ -3,4 +3,4 @@
 ## Flow of operation
 ## GUI
 ![gui](Gui.png)
-An example screen shot the analysis program.
+An example screen shot of the analysis program.
