@@ -1991,13 +1991,13 @@ function figure1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to figure1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
-ha = axes('units','normalized', 'position',[0 0 1 1]);
+% 
+% ha = axes('units','normalized', 'position',[0 0 1 1]);
 % Move the background axes to the bottom
 
-uistack(ha,'bottom');
-I=imread('0DNVzD2.jpg');
-imagesc(I)
+% uistack(ha,'bottom');
+% I=imread('0DNVzD2.jpg');
+% imagesc(I)
 
 % --- Executes on button press in SplitAndSave.
 function SplitAndSave_Callback(hObject, eventdata, handles)
